@@ -16,18 +16,21 @@
   </head>
 
   <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
     <nav class="navbar">
       <div class="max-width">
         <div class="logo">
           <a href="#">Portfo<span>lio.</span></a>
         </div>
         <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#teams">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="menu-btn">
           <i class="fas fa-bars"></i>
@@ -218,33 +221,34 @@
 
           <div class="card">
             <div class="box">
-              <img src="" alt="" />
-              <div class="text">Project name</div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <img src="images/dice games.jpg" alt="" />
+              <div class="text">Dice Games</div>
+              <p>
+                When you press the button, dice rolls randomly and generate a
+                winner (or draw).
+              </p>
             </div>
           </div>
 
           <div class="card">
             <div class="box">
-              <img src="" alt="" />
-              <div class="text">Project name</div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <img src="images/change color.jpg" alt="" />
+              <div class="text">Change Color</div>
+              <p>
+                Your web page background color will be changed randomly when you
+                clicked button on the page.
+              </p>
             </div>
           </div>
 
           <div class="card">
             <div class="box">
-              <img src="" alt="" />
-              <div class="text">Project name</div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="box">
-              <img src="" alt="" />
-              <div class="text">Project name</div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <img src="images/guessmynumber.jpg" alt="" />
+              <div class="text">Guess My Number</div>
+              <p>
+                Guess Number game creates random number between any value you
+                choose. User trying to find the secret number lowest turn.
+              </p>
             </div>
           </div>
         </div>
@@ -294,20 +298,25 @@
             <form action="#">
               <div class="fields">
                 <div class="field name">
-                  <input type="text" placeholder="Name" />
+                  <input type="text" placeholder="Name" required />
                 </div>
                 <div class="field email">
-                  <input type="text" placeholder="Email" />
+                  <input type="text" placeholder="Email" required />
                 </div>
-                <div class="field">
-                  <input type="text" placeholder="Subject" />
-                </div>
-                <div class="field textarea">
-                  <textarea cols="30" rows="10"></textarea>
-                </div>
-                <div class="button">
-                  <button type="submit">Send message</button>
-                </div>
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Describe project..."
+                  required
+                ></textarea>
+              </div>
+              <div class="button">
+                <button type="submit">Send message</button>
               </div>
             </form>
           </div>
